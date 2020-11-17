@@ -13,7 +13,6 @@
         ]);
 
         var options = {
-          title: 'Company Performance',
           hAxis: {title: 'Year',  titleTextStyle: {color: '#333'}},
           vAxis: {minValue: 0}
         };
@@ -22,4 +21,9 @@
         chart.draw(data, options);
       }
     </script>
-<div id="chart_div" style="width: 100%; height: 500px;"></div>
+<div class="card border-dark mb-3">
+  <div class="card-header">Company Performance</div>
+  <div class="card-body">
+     <div id="chart_div"></div>
+  </div>
+</div>
