@@ -14,10 +14,12 @@
 	</header>
 	<body>
 
-	<div class="container-fluid">
+	<div class="row">
+		<div class="container-fluid">
 <?php 
 	include( "PHP/template/". $page .".php"); 
 ?>
+		</div>
 	</div>
 
 		<script type="text/javascript" src="js/jquery.js"></script>
